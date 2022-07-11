@@ -52,3 +52,16 @@ a {
 .col:last-of-type {
   text-align: center;
 }
+
+.modal {
+  padding: 24px;
+  margin: auto;
+  margin-top: 120px;
+  width: 260px;
+  text-align: center;
+}
+
+.modal::backdrop {
+  background-color: #ccc;
+  opacity: 0.5;
+}
